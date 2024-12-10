@@ -10,7 +10,7 @@ export const Navbar =()=>{
                       <h1 className="text-2xl font-semibold">
                         Home
                       </h1>
-                      <p className="text-muted-foreground">Monitor all of your projects and tasks here</p>
+                      <p className="text-muted-foreground">Monitor all of your documents here</p>
             </div>
             <MobileSidebR/>
             <UserButton/>
