@@ -7,9 +7,9 @@ import { ID, Query } from "node-appwrite";
 import { MemberRole } from "@/features/members/types";
 import { generateInviteCode } from "@/lib/utils";
 import { getMember } from "@/features/members/utils";
-import { error } from "console";
+
 import {z} from "zod"
-import { Workspace } from "../types";
+
 const app = new Hono()
 
 .get("/", sessionMiddleware, async(c)=>{

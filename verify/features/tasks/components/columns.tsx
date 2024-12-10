@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/components/ui/badge";
-import { FileTextIcon, ExternalLinkIcon, LoaderIcon, CheckCircleIcon, LucideView, Trash2 } from "lucide-react";
+import { FileTextIcon, LoaderIcon, CheckCircleIcon, LucideView } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import { Files } from "@/features/files/types";
 import { Button } from "@/components/ui/button";
@@ -118,7 +118,7 @@ export const columns = ({ handleAddToKanban, submittedFiles=new Set(), onDelete 
           formData.append("file", file, fileName);
           formData.append("imageUrl", url);
 
-          const apiResponse = await Axios.post("http://127.0.0.1:8000/uploadfile/", formData, {
+          const apiResponse = await Axios.post("https://verify-2-harw.onrender.com/uploadfile/", formData, {
             headers: { "Content-Type": "multipart/form-data" },
           });
 
