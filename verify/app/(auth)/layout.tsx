@@ -24,7 +24,7 @@ return(
     <main className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-violet-800 to-fuchsia-900 min-h-screen">
       <div className="mx-auto max-w-screen-2xl  p-4 ">
         <nav className="flex justify-between items-center">
-       <h1 className="text-2xl">
+       <h1 className="text-2xl text-white">
     <span className="font-thin">Claims</span>
     <span className="font-bold">Verification</span>
   </h1>
