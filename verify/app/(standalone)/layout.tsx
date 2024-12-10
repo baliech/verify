@@ -1,5 +1,4 @@
 import { UserButton } from "@/features/auth/components/user-button";
-import Image from "next/image";
 import Link from "next/link";
 interface StandAloneLayoutProps {
     children:React.ReactNode;
@@ -12,7 +11,10 @@ const StandAloneLayout =({children}:StandAloneLayoutProps)=>{
         <div  className="mx-auto max-w-screen-2xl p-4">
             <nav className="flex justify-between items-center h-[73px]">
                  <Link href="/">
-                 <h1 className="flex  items-center text-2xl text-black"><Image src="/logo.png" alt="logo" height={64} width={64}/></h1>
+                 <h1 className="text-2xl">
+    <span className="font-thin">Claims</span>
+    <span className="font-bold">Verification</span>
+  </h1>
                  
                  </Link>
                  <UserButton/>
