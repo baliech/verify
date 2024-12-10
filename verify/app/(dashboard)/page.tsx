@@ -1,9 +1,9 @@
 
 import { getCurrent } from "@/features/auth/queries";
-import { UserButton } from "@/features/auth/components/user-button";
+
 import { getWorkSpaces } from "@/features/workspaces/queries";
-import { CreateWorkspaceForm } from "@/features/workspaces/components/create-workspace-form";
-import { redirect, RedirectType } from "next/navigation";
+
+import { redirect} from "next/navigation";
 
 export default async function Home() {
   

@@ -12,10 +12,7 @@ import { useQueryState } from "nuqs";
 import { useToast } from '@/hooks/use-toast';
 import { Toaster } from "@/components/ui/toaster";
 import { deleteDocuments } from "../hooks/bolt/api";
-import { Files } from "../hooks/bolt/types";
 import { RowSelectionState } from "@tanstack/react-table";
-import { Client, Databases, Query } from "node-appwrite";
-import { useDeleteFile } from '@/features/files/api/use-delete-file';
 import { useConfirm } from "@/hooks/use-confirm";
 import { DataCalender } from './data-calendar';
 

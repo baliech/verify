@@ -1,6 +1,6 @@
 "use client";
 
-import {GoCheckCircle, GoCheckCircleFill, GoHome, GoHomeFill} from "react-icons/go";
+import { GoHome, GoHomeFill} from "react-icons/go";
 import {SettingsIcon, UsersIcon} from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
